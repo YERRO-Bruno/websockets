@@ -1,1 +1,1 @@
-web: uvicorn websockets_server.asgi --port 9000
+web: uvicorn websockets_server.asgi:application --port 9000
